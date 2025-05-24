@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    color:#ead6bd
+    color: #3d77ad;
 }
 
 header {
@@ -84,37 +84,7 @@ h3 {
     display: block;
     width: 100%;
 }
-/* Мобильная версия (по умолчанию) */
-body {
-    background-color: #fafbf9;
-    color: #384242;
-}
 
-/* Планшет (от 768px) */
-@media (min-width: 768px) {
-    body {
-        background-color: #fff1dd;
-    }
-    .card, footer {
-        background-color: #f2e4c8;
-    }
-}
-
-/* Десктоп (от 1024px) */
-@media (min-width: 1024px) {
-    body {
-        background-color: #ead6bd;
-        color: #8b0000;
-    }
-    .card, footer {
-        background-color: #deb877;
-    }
-}
-@media (min-width: 1024px) {
-    /* Ширина картинки 100% */
-    .hero img {
-        width: 100%;
-    }
 
     /* Позиционирование картинки под текстом */
     .hero {
@@ -143,4 +113,36 @@ body {
     .logo {
         order: 2; /* Если логотип и заголовок в одном контейнере */
     }
+
+h3{
+    text-align: center;
+}
+cards{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+}
+.card {
+    color: #384242;
+    width: 356px;
+    background-color: #ebecef;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    margin: 12px 0;
+    font-size: 14px;
+    line-height: 1.4;
 }
