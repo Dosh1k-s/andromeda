@@ -37,6 +37,7 @@ footer {
 
 .logo {
     height: 64px;
+    border-radius: 50px;
 }
 
 .hero {
@@ -85,11 +86,9 @@ h3 {
     width: 100%;
 }
 
-
-    /* Позиционирование картинки под текстом */
     .hero {
         position: relative;
-        min-height: 600px; /* Для эффектного расположения */
+        min-height: 600px;
     }
     .hero img {
         position: absolute;
@@ -105,14 +104,14 @@ h3 {
         padding: 20px;
     }
 
-    /* Логотип в шапке справа */
     header {
         justify-content: flex-end;
         gap: 20px;
     }
     .logo {
-        order: 2; /* Если логотип и заголовок в одном контейнере */
+        order: 2;
     }
+
 
 h3{
     text-align: center;
@@ -145,4 +144,46 @@ cards{
     margin: 12px 0;
     font-size: 14px;
     line-height: 1.4;
+}
+
+.pc {
+    width: 1150px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+}
+
+.pc img {
+    width: 23%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text {
+    width: 55%;
+}
+
+.about-text_h1 {
+    font-size: 28px;
+    color: #346;
+}
+
+.text_p {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #9e9e9e;
+}
+footer{
+    height: 200px;
+    background-color: #0e0e0e;
+}
+
+.wrapper {
+    height: 200px;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    box-sizing: border-box;
 }
