@@ -123,6 +123,7 @@ cards{
     gap: 20px; 
     align-items: flex-start; 
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 .card {
     color: #384242;
@@ -186,4 +187,31 @@ footer{
     margin: 0 auto;
     padding: 80px 20px;
     box-sizing: border-box;
+}
+
+
+.card2 {
+    color: #000000;
+    width: 1224px;
+    background-color: #ebecef;
+    padding: 16px;
+
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+}
+cards1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.h4{
+    text-align: center;
+}
+
+.h55{
+    text-align: center;
 }
